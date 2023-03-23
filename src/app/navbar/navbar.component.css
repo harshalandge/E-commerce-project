@@ -1,0 +1,33 @@
+form {
+    outline: cornflowerblue;
+    height: 37px;
+    width: 100%;
+    max-width: 350px;
+ background: rgba(255, 255, 255, 0.774);
+ display: flex;
+ align-items: center;
+ border-radius: 60px;
+ padding:3px 10px;
+ border:3px inset rgb(0, 204, 255) ;
+}
+
+form input{
+    height: 30px;
+    border: 0;
+  background-color: #ffffff;
+     color: #ffffff;
+    }
+
+form button{
+    width: 35px;
+    border:2px;
+    border-radius: 50%;
+    height:30px;
+    background-color: #06a4ff;
+    cursor: pointer;
+    color: white;
+}
+ul li :hover{
+text-shadow:0 0 10px 5px black ;
+
+}
