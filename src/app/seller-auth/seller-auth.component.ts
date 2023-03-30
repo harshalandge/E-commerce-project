@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
+import { Router } from '@angular/router';
+import { Signup } from 'src/data-type';
+import { SellerService } from '../services/seller.service';
 
 @Component({
   selector: 'app-seller-auth',
@@ -22,22 +25,26 @@ export class SellerAuthComponent {
     'email':new FormControl(''),
    })
 
-   constructor(){
+   constructor(private seller:SellerService,private router:Router){
 
    }
 
-// ngOnInit():void{
-//   this.seller.reloadseller()
-// }
+ngOnInit():void{
+  this.seller.reloadSeller()
+}
   
-// userSign(data:SignUp){
-
-// }
+userSign(data:Signup){
+this.seller.userSign(this.harsha.value)
+}
 
 openLogin(){
   this.showLogin=true
 }
 openSignup(){
   this.showLogin=false
+}
+
+loginSeller(){
+  this.seller.userLogin(this.harshu.value)
 }
 }

@@ -24,3 +24,31 @@
      margin-top: 20%;
      
  } */
+ /* input{
+    outline: rgb(132, 237, 100);
+ } */
+
+
+ .frm{
+background: linear-gradient(rgb(237, 237, 248),white,rgb(81, 81, 123));
+ }
+ 
+ .har a{
+    color: black;
+   
+ }
+ .container{
+   
+    background-image: url(https://cdn.pixabay.com/photo/2016/01/27/22/10/shopping-1165437_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ .form2{
+   margin-top: 100px;
+    background-image: url(https://cdn.pixabay.com/photo/2015/11/06/15/13/internet-1028794_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ .cur{
+    cursor: pointer;
+ }

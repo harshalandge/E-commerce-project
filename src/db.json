@@ -1,0 +1,63 @@
+{
+  "seller": [
+    {
+      "name": "harsha",
+      "password": "harshu",
+      "email": "harshalandge021998@gmail.com"
+    },
+    {
+      "name": "harsha",
+      "password": "harshu",
+      "email": "harshalandge021998@gmail.com",
+      "id": 1
+    },
+    {
+      "firstName": "priyanka",
+      "password": "priyanka",
+      "email": "harshalandge021998+25@gmail.com",
+      "id": 2
+    },
+    {
+      "firstName": "priyanka",
+      "password": "priyanka",
+      "email": "harshalandge021998+25@gmail.com",
+      "id": 3
+    },
+    {
+      "firstName": "harsha",
+      "password": "kirti@98",
+      "email": "harshalandge021998+20@gmail.com",
+      "id": 4
+    },
+    {
+      "firstName": "priyanka",
+      "password": "priyanka",
+      "email": "harshalandge021998+20@gmail.com",
+      "id": 5
+    },
+    {
+      "firstName": "harshu",
+      "password": "kirti@98",
+      "email": "harshalandge021998+20@gmail.com",
+      "id": 6
+    },
+    {
+      "name": "harshu",
+      "password": "harsha123",
+      "email": "harsha123@gmail.com",
+      "id": 7
+    },
+    {
+      "name": "harsha",
+      "password": "haer123",
+      "email": "har123@gmail.com",
+      "id": 8
+    },
+    {
+      "name": "rashmi",
+      "password": "rashmi123",
+      "email": "rashmi123@gmail.com",
+      "id": 9
+    }
+  ]
+}
